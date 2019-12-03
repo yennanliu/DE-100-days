@@ -30,6 +30,28 @@
 19. Day19 - Re-build the tables : normalization I, II, III, data cleaning....
 20. Day20 - Re-design the data model and build again
 
-#### Part 4 : Implementation part II : ETL 
-- # dev 
+#### Part 5 : Implementation part II : ETL 
+21. Day21 - Workflow of process : ETL design
+22. Day22 - Build a simple ETL: extract -> transform -> load    
+23. Day23 - Monitor the ETL jobs : log/job state/job DB
+24. Day24 - Get with ETL framework : Airflow
+25. Day25 - Build the ETL with framework : Airflow
 
+#### Part 6 : Deep dive into database
+26. Day26 - How does/what mode hard-disk save/scan/update data ? 
+27. Day27 - DB data structure / algorithm    
+28. Day28 - Analyze SQL : underlying operation when DB runs an quer
+29. Day29 - DB state : db ONLINE/OFFLINE/RESTORING/RECOVERING..
+30. Day30 - DB configuration/metrics/performance...
+
+#### Part 7 : System design
+- dev 
+
+#### Part 8 : Big data I
+- dev 
+
+#### Part 9 : Big data II
+- dev 
+
+#### Part 10 : Implementation : Big data
+- dev 
