@@ -55,3 +55,12 @@
 
 #### Part 10 : Implementation : Big data
 - dev 
+
+#### Part 11 : Non format data : No SQL 
+- dev 
+
+#### Part 12 : Scaling system 
+- dev 
+
+#### Part 13 : Distributed system 
+- dev 
