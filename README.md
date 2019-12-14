@@ -75,20 +75,29 @@
 #### Part 11 : Implementation : Big data
 - dev 
 
-#### Part 12 : Non format data : No SQL 
+#### Part 12 : Scaling system (Horizontal and Vertical)
 - dev 
 
-#### Part 13 : Scaling system 
+#### Part 13 : Distributed system 
 - dev 
 
-#### Part 14 : Distributed system 
+#### Part 14 : Streaming data  ( V.S. batch data)
 - dev 
 
-#### Part 15 : Streaming data  ( V.S. batch data)
+#### Part 15 : Process streaming data : Kafka, RabbitMQ, Kinesis  
 - dev 
 
-#### Part 16 : Streaming system  
+#### Part 16 : Streaming system design: latency, response, load-balance
 - dev 
 
-#### Part 16 : Big data with Streaming system  
+#### Part 17 : Implementation I : streaming system for an online game  
+- dev 
+
+#### Part 18 : Lambda architecture (Streaming system + Batch system)
+- dev 
+
+#### Part 19 : Kappa architecture 
+- dev 
+
+#### Part 20 : Conclusion   
 - dev 
