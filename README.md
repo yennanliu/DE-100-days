@@ -73,10 +73,18 @@
 50. Day50 - Spark intro VI: Spark ETL, Spark interact with DB/datalake/csv...
 
 #### Part 11 : Implementation : Big data
-- dev 
+51. Day 51 - Design a Framework process NYC Taxi data
+52. Day 51 - ETL : pre-process data into datalake
+53. Day 53 - ETL : transform data (cache it) load into datalake
+54. Day 54 - Optimize/Scale above ETL
+55. Day 55 - ETL : datalake -> database
 
 #### Part 12 : Scaling system (Horizontal and Vertical)
-- dev 
+56. Day 56 - DB Partition 
+57. Day 57 - DB replication 
+58. Day 58 - Leader-follower framework
+59. Day 59 - Leader-leader framework  
+60. Day 60 - No Leader framework  
 
 #### Part 13 : Distributed system 
 - dev 
