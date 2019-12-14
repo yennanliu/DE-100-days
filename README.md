@@ -37,50 +37,57 @@
 24. Day24 - Get with ETL framework : Airflow
 25. Day25 - Build the ETL with framework : Airflow
 
-#### Part 6 : Deep dive into database
+#### Part 6 : Database I : database low level operations
 26. Day26 - How does/what mode hard-disk save/scan/update data ? 
 27. Day27 - DB data structure / algorithm    
 28. Day28 - Analyze SQL : underlying operation when DB runs an quer
 29. Day29 - DB state : db ONLINE/OFFLINE/RESTORING/RECOVERING..
 30. Day30 - DB configuration/metrics/performance...
 
-#### Part 7 : System design
-31. Day31 - Design concept / Basic pattern
-32. Day32 - Evaluate system performance : response-time/latency-time, QPS..
-33. Day33 - Scaling system : horizontal scaling / vertical scaling ...
-34. Day34 - Case I : Design an ecommerce data backend 
-35. Day35 - Case II : Design an online-game batch leaderboard
+#### Part 7 : Database II : SQL/No-SQL (key-value)/cached DB
+31. Day31 - Relational DB (SQL) : Mysql/Postgresql
+32. Day32 - Non Relational DB (No-SQL) : MongoDB
+33. Day33 - Cached DB : Redis
+34. Day34 - Case I : Save/query schema/schema-less data via SQL/No-SQL
+35. Day35 - Case II : Save/query temp data at Redis, and sync it to Mysql  
 
-#### Part 8 : Big data I
-36. Day36 - What's big data ? big data intro
-37. Day37 - Big data ecosystem intro : Hadoop/Hive/Pig/Hbase/Presto/Spark...
-38. Day38 - Hadoop intro : basic commands / HDFS file system op / work with HDFS data
-39. Day39 - Hive intro :   basic commands / work with HDFS data via Hive 
-40. Day40 - Pig intro :   basic commands / work with HDFS data via Pig 
+#### Part 8 : System design
+36. Day36 - Design concept / Basic pattern
+37. Day37 - Evaluate system performance : response-time/latency-time, QPS..
+38. Day38 - Scaling system : horizontal scaling / vertical scaling ...
+39. Day39 - Case I : Design an ecommerce data backend 
+40. Day40 - Case II : Design an online-game batch leaderboard
 
-#### Part 9 : Big data II
-41. Day41 - Spark intro I: basic commands / core concepts / RDD / worker, driver, Master
-42. Day42 - Spark intro II: init Spark, make it parallel, partition, re-partition
-43. Day43 - Spark intro III: Spark data API RDD/dataframe/SparkSQL, Transformations/Actions 
-44. Day44 - Spark intro IV: Spark function, submit a spark job 
-45. Day45 - Spark intro VI: Spark ETL, Spark interact with DB/datalake/csv...
+#### Part 9 : Big data I
+41. Day41 - What's big data ? big data intro
+42. Day42 - Big data ecosystem intro : Hadoop/Hive/Pig/Hbase/Presto/Spark...
+43. Day43 - Hadoop intro : basic commands / HDFS file system op / work with HDFS data
+44. Day44 - Hive intro :   basic commands / work with HDFS data via Hive 
+45. Day45 - Pig intro :   basic commands / work with HDFS data via Pig 
 
-#### Part 10 : Implementation : Big data
+#### Part 10 : Big data II
+46. Day46 - Spark intro I: basic commands / core concepts / RDD / worker, driver, Master
+47. Day47 - Spark intro II: init Spark, make it parallel, partition, re-partition
+48. Day48 - Spark intro III: Spark data API RDD/dataframe/SparkSQL, Transformations/Actions 
+49. Day49 - Spark intro IV: Spark function, submit a spark job 
+50. Day50 - Spark intro VI: Spark ETL, Spark interact with DB/datalake/csv...
+
+#### Part 11 : Implementation : Big data
 - dev 
 
-#### Part 11 : Non format data : No SQL 
+#### Part 12 : Non format data : No SQL 
 - dev 
 
-#### Part 12 : Scaling system 
+#### Part 13 : Scaling system 
 - dev 
 
-#### Part 13 : Distributed system 
+#### Part 14 : Distributed system 
 - dev 
 
-#### Part 14 : Streaming data  ( V.S. batch data)
+#### Part 15 : Streaming data  ( V.S. batch data)
 - dev 
 
-#### Part 15 : Streaming system  
+#### Part 16 : Streaming system  
 - dev 
 
 #### Part 16 : Big data with Streaming system  
