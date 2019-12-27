@@ -87,10 +87,18 @@
 60. Day 60 - No Leader framework  
 
 #### Part 13 : Distributed system 
-- dev 
+61. Day 56 - Framework : Leader/Follower, Leader-Leader, 
+62. Day 57 - Latency
+63. Day 58 - Memory Access
+64. Day 59 - Partial failure and concurrency
+65. Day 60 - Case I : Design a Web app with leader-follower DB backend
 
-#### Part 14 : Streaming data  ( V.S. batch data)
-- dev 
+#### Part 14 : Streaming data ( V.S. batch data)
+66. Day 66 - Streaming data properties : time window, recency, ordering.. 
+67. Day 67 - Work with streaming data : simple fetch/digest/collect
+68. Day 68 - Storage steaming data : cache, No-SQL, No schema file system 
+69. Day 69 - steaming data -> batch data
+70. Day 70 - Case I : Design a process report real-time data and save them
 
 #### Part 15 : Process streaming data : Kafka, RabbitMQ, Kinesis  
 - dev 
