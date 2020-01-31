@@ -100,11 +100,19 @@
 69. Day 69 - steaming data -> batch data
 70. Day 70 - Case I : Design a process report real-time data and save them
 
-#### Part 15 : Process streaming data : Kafka, RabbitMQ, Kinesis  
-- dev 
+#### Part 15 : Process streaming data : Kafka, RabbitMQ, Kinesis, Pubsub 
+71. Day 71 - Concept of digest streaming data 
+72. Day 72 - Kafka VS RabbitMQ VS Kinesis VS Pubsub 
+73. Day 73 - Set up Kafka 
+74. Day 74 - Set up AWS Kinesis 
+75. Day 75 - Case II : Fetch event data via Kafka, Kinesis
 
 #### Part 16 : Streaming system design: latency, response, load-balance
-- dev 
+76. Day 76 - What's a good streaming system
+77. Day 77 - Streaming system metrics  
+78. Day 78 - Monitor streaming system : log 
+79. Day 79 - system load-balance 
+80. Day 80 - Case III : Design a event collect system via Kinesis, elasticsearch, and mysql 
 
 #### Part 17 : Implementation I : streaming system for an online game  
 - dev 
