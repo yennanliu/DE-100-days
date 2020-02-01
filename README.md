@@ -7,7 +7,7 @@
 2. Day02 - Progamming language basics : Python 
 3. Day03 - Progamming language basics : Scala 
 4. Day04 - Script basics : Bash
-5. Day05 - SQL basic 
+5. Day05 - SQL basic, DDL, DQL, DML, DCL and TCL Commands
 
 #### Part 2 : Basic concepts  
 6. Day06 - Where're the data come from ? type of data source 
