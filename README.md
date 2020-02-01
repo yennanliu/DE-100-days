@@ -7,7 +7,7 @@
 2. Day02 - Progamming language basics : Python 
 3. Day03 - Progamming language basics : Scala 
 4. Day04 - Script basics : Bash
-5. Day05 - SQL basic, DDL, DQL, DML, DCL and TCL Commands
+5. [Day05 - SQL basic, DDL, DQL, DML, DCL and TCL Commands](https://github.com/yennanliu/DE-100-days/tree/master/DE100Days/Day05)
 
 #### Part 2 : Basic concepts  
 6. Day06 - Where're the data come from ? type of data source 
@@ -27,7 +27,7 @@
 16. Day16 - Pattern of data model : choose the right data model 
 17. Day17 - Type of data type : table schema design 
 18. Day18 - Build the tables : primary key, foreign key, index....
-19. Day19 - Re-build the tables : normalization I, II, III, data cleaning....
+19. [Day19 - Re-build the tables : normalization I, II, III, data cleaning....](https://github.com/yennanliu/DE-100-days/tree/master/DE100Days/Day19)
 20. Day20 - Re-design the data model and build again
 
 #### Part 5 : Implementation part II : ETL 
