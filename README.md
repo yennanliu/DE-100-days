@@ -7,13 +7,13 @@
 2. Day02 - Progamming language basics : Python 
 3. Day03 - Progamming language basics : Scala 
 4. Day04 - Script basics : Bash
-5. [Day05 - SQL basic, DDL, DQL, DML, DCL and TCL Commands](https://github.com/yennanliu/DE-100-days/tree/master/DE100Days/Day05)
+5. [Day05 - SQL basic, DDL, DQL, DML, DCL and TCL Commands](https://github.com/yennanliu/DE-100-days/blob/master/DE100Days/Day05/sql_basic.md)
 
 #### Part 2 : Basic concepts  
-6. Day06 - Where're the data come from ? type of data source 
-7. Day07 - What kind of the data ? type of data 
-8. Day08 - How to process/fetch the data ?  type of pipeline 
-9. Day09 - How to save the data ? type of data storage 
+6.  Day06 - Where're the data come from ? type of data source 
+7.  Day07 - What kind of the data ? type of data 
+8.  Day08 - How to process/fetch the data ?  type of pipeline 
+9.  Day09 - How to save the data ? type of data storage 
 10. Day10 - How to get the data ? type of query 
 
 #### Part 3 : Basic system  
@@ -27,7 +27,7 @@
 16. Day16 - Pattern of data model : choose the right data model 
 17. Day17 - Type of data type : table schema design 
 18. Day18 - Build the tables : primary key, foreign key, index....
-19. [Day19 - Re-build the tables : normalization I, II, III, data cleaning....](https://github.com/yennanliu/DE-100-days/tree/master/DE100Days/Day19)
+19. [Day19 - Re-build the tables : normalization I, II, III, data cleaning....](https://github.com/yennanliu/DE-100-days/blob/master/DE100Days/Day19/db_normalization.md)
 20. Day20 - Re-design the data model and build again
 
 #### Part 5 : Implementation part II : ETL 
@@ -80,7 +80,7 @@
 55. Day 55 - ETL : datalake -> database
 
 #### Part 12 : Scaling system (Horizontal and Vertical)
-56. Day 56 - DB Partition 
+56. [Day 56 - DB Partition](https://github.com/yennanliu/DE-100-days/blob/master/DE100Days/Day56/db_partition.md) 
 57. Day 57 - DB replication 
 58. Day 58 - Leader-follower framework
 59. Day 59 - Leader-leader framework  
