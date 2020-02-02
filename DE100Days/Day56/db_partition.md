@@ -3,6 +3,6 @@
 ## Intro
 
 ## Ref 
-- Mysqp partition
+- Mysql partition
 	- https://github.com/github/gh-ost
 	- https://dev.mysql.com/doc/refman/5.7/en/partitioning.html

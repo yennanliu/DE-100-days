@@ -2,7 +2,7 @@
 
 ### CONTEXTS 
 
-#### Part 1 : Basic tools 
+#### Part 1 : Basic DE tools 
 1. Day01 - Data engineering intro 
 2. Day02 - Progamming language basics : Python 
 3. Day03 - Progamming language basics : Scala 
