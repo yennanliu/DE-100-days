@@ -25,10 +25,10 @@
 
 #### Part 4 : Implementation part I : Data Model  
 16. Day16 - Pattern of data model : choose the right data model 
-17. Day17 - Type of data type : table schema design 
+17. Day17 - Case I : Design data model for an e-commerce Startup
 18. Day18 - Build the tables : primary key, foreign key, index....
 19. [Day19 - Re-build the tables : normalization I, II, III, data cleaning....](https://github.com/yennanliu/DE-100-days/blob/master/DE100Days/Day19/db_normalization.md)
-20. Day20 - Re-design the data model and build again
+20. Day20 - Case II : Re-design the data model ( e-commerce Startup)
 
 #### Part 5 : Implementation part II : ETL 
 21. Day21 - Workflow of process : ETL design
