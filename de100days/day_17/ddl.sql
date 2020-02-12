@@ -1,23 +1,3 @@
-## Case I : Data Model Design
-- Design a db model for an `e-commerce` startup
-
-## Overview Of E-commerce Business 
-
-- Main components
-    - Customer 
-    - Orders
-    - Checkout
-    - Delivery
-    - Product
-    - Merchants
-    - Warehouse (stock)
-    - City
-
-## Data Model Architecture
-
-## DDL
-
-```sql
 CREATE TABLE customer (
    id serial PRIMARY KEY, 
    first_name varchar,
@@ -85,10 +65,3 @@ CREATE TABLE city (
     id serial PRIMARY KEY,
     city_name varchar
 )
-```
-
-## Ref 
-- https://dba.stackexchange.com/questions/12991/ready-to-use-database-models-example/23831#23831
-- http://www.databaseanswers.org/data_models/e_commerce/index.htm
-- https://dbdiagram.io/d
-- http://www.databaseanswers.org/data_models/index.htm
