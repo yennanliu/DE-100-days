@@ -1,4 +1,4 @@
-## [DATA ENGINEER 100 DAYS](https://github.com/yennanliu/DE-100-days/tree/master/DE100Days)
+## [DATA ENGINEER 100 DAYS](https://github.com/yennanliu/DE-100-days/tree/master/de100days)
 
 ### CONTEXTS 
 
@@ -7,7 +7,7 @@
 2. Day02 - Progamming language basics : Python 
 3. Day03 - Progamming language basics : Scala 
 4. Day04 - Script basics : Bash
-5. [Day05 - SQL basic, DDL, DQL, DML, DCL and TCL Commands](https://github.com/yennanliu/DE-100-days/blob/master/DE100Days/Day_05/sql_basic.md)
+5. [Day05 - SQL basic, DDL, DQL, DML, DCL and TCL Commands](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_05/sql_basic.md)
 
 #### Part 2 : Basic concepts  
 6.  Day06 - Where're the data come from ? type of data source 
@@ -25,9 +25,9 @@
 
 #### Part 4 : Implementation part I : Data Model  
 16. Day16 - Pattern of data model : choose the right data model 
-17. [Day17 - Case I : Design data model for an e-commerce Startup](https://github.com/yennanliu/DE-100-days/blob/master/DE100Days/day_17/data_model_design.md)
+17. [Day17 - Case I : Design data model for an e-commerce Startup](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_17/data_model_design.md)
 18. Day18 - Build the tables : primary key, foreign key, index....
-19. [Day19 - Re-build the tables : normalization I, II, III, data cleaning....](https://github.com/yennanliu/DE-100-days/blob/master/DE100Days/Day_19/db_normalization.md)
+19. [Day19 - Re-build the tables : normalization I, II, III, data cleaning....](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_19/db_normalization.md)
 20. Day20 - Case II : Re-design the data model ( e-commerce Startup)
 
 #### Part 5 : Implementation part II : ETL 
@@ -80,7 +80,7 @@
 55. Day 55 - ETL : datalake -> database
 
 #### Part 12 : Scaling system (Horizontal and Vertical)
-56. [Day 56 - DB Partition](https://github.com/yennanliu/DE-100-days/blob/master/DE100Days/Day_56/db_partition.md) 
+56. [Day 56 - DB Partition](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_56/db_partition.md) 
 57. Day 57 - DB replication 
 58. Day 58 - Leader-follower framework
 59. Day 59 - Leader-leader framework  
