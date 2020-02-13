@@ -4,8 +4,9 @@
 ```
 First Normal Form (1NF) -> Second Normal Form (2NF) -> Third Normal Form (3NF) -> Fourth Normal Form (4NF) -> Fifth Normal Form (5NF)
 ```
-### Init table 
+### BUILD THE TABLE 
 - Let's say we have a `movie ranting` table defined as below
+- [sql](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_19/movie_rented.sql)
 
 ```sql
 -- sqlite 
@@ -26,6 +27,7 @@ VALUES('RobertPhill', '5th Avenue', 'ClashoftheTitans,DaddyLittlegirls', 'Mr.', 
 
 ```
 ```sql
+-- sqlite 
 -- check the table 
 select * from movie_ranting;
 -- JanetJones|First Street Plot No 4|Piratesofthecaribbean,ClashoftheTitans|Ms.|Action, Action
@@ -39,6 +41,7 @@ select * from movie_ranting;
 - Each table cell should contain a single value.
 - Each record needs to be unique.
 - So, we can modify the movie ranting table to `1NF pattern` via below commands:
+- [sql](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_19/movie_rented_1NF.sql)
 
 ```sql
 -- sqlite 
