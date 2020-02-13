@@ -1,3 +1,5 @@
+-- https://www.guru99.com/database-normalization.html
+
 CREATE TABLE movie_ranting (
     full_names TEXT NOT NULL,
     physical_address TEXT NOT NULL,

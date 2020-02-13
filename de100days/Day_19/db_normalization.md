@@ -4,9 +4,91 @@
 ```
 First Normal Form (1NF) -> Second Normal Form (2NF) -> Third Normal Form (3NF) -> Fourth Normal Form (4NF) -> Fifth Normal Form (5NF)
 ```
+### Init table 
+- Let's say we have a `movie ranting` table defined as below
+
+```sql
+-- sqlite 
+CREATE TABLE movie_ranting (
+    full_names TEXT NOT NULL,
+    physical_address TEXT NOT NULL,
+    movie_rented TEXT NOT NULL,
+    saluation TEXT NOT NULL,
+    category TEXT NOT NULL
+);
+
+INSERT INTO movie_ranting (full_names, physical_address, movie_rented, saluation, category) 
+VALUES('JanetJones', 'First Street Plot No 4', 'Piratesofthecaribbean,ClashoftheTitans', 'Ms.', 'Action, Action');
+INSERT INTO movie_ranting (full_names, physical_address, movie_rented, saluation, category) 
+VALUES('RobertPhill', '3rd street 34', 'ForgettingSarahMarshal,DaddyLittlegirls', 'Mr.', 'Romance, Romance');
+INSERT INTO movie_ranting (full_names, physical_address, movie_rented, saluation, category) 
+VALUES('RobertPhill', '5th Avenue', 'ClashoftheTitans,DaddyLittlegirls', 'Mr.', 'Action');
+
+```
+```sql
+-- check the table 
+select * from movie_ranting;
+-- JanetJones|First Street Plot No 4|Piratesofthecaribbean,ClashoftheTitans|Ms.|Action, Action
+-- RobertPhill|3rd street 34|ForgettingSarahMarshal,DaddyLittlegirls|Mr.|Romance, Romance
+-- RobertPhill|5th Avenue|ClashoftheTitans,DaddyLittlegirls|Mr.|Action
+
+```
+- In the below tutorial, we will step by step demo how to `normalize` this tbale via `1NF`, `2NF`, `3NF`...
+
 ### First Normal Form (1NF)
 - Each table cell should contain a single value.
 - Each record needs to be unique.
+- So, we can modify the movie ranting table to `1NF pattern` via below commands:
+
+```sql
+-- sqlite 
+create table sub 
+as select * from ( 
+WITH RECURSIVE split(full_names_, movie_rented_, rest) AS (
+  SELECT full_names, '', movie_rented || ',' FROM movie_ranting
+   UNION ALL
+  SELECT full_names_, 
+         substr(rest, 0, instr(rest, ',')),
+         substr(rest, instr(rest, ',')+1)
+    FROM split
+   WHERE rest <> '')
+SELECT full_names_ as full_names, movie_rented_  as movie_rented
+  FROM split 
+ WHERE movie_rented_ <> ''
+ ORDER BY full_names, movie_rented);
+
+create table movie_rented_1NF
+as select * from (
+select 
+sub.full_names, 
+sub.movie_rented, 
+movie_ranting.physical_address,
+movie_ranting.saluation
+from sub inner join movie_ranting
+on sub.full_names  = movie_ranting.full_names
+order by 1,2
+);  
+
+```
+
+- Now you can see the table already normalized (`1NF normalization`)
+
+```sql
+-- sqlite 
+select * from movie_rented_1NF;
+
+-- JanetJones|ClashoftheTitans|First Street Plot No 4|Ms.
+-- JanetJones|Piratesofthecaribbean|First Street Plot No 4|Ms.
+-- RobertPhill|ClashoftheTitans|3rd street 34|Mr.
+-- RobertPhill|ClashoftheTitans|5th Avenue|Mr.
+-- RobertPhill|DaddyLittlegirls|3rd street 34|Mr.
+-- RobertPhill|DaddyLittlegirls|5th Avenue|Mr.
+-- RobertPhill|DaddyLittlegirls|3rd street 34|Mr.
+-- RobertPhill|DaddyLittlegirls|5th Avenue|Mr.
+-- RobertPhill|ForgettingSarahMarshal|3rd street 34|Mr.
+-- RobertPhill|ForgettingSarahMarshal|5th Avenue|Mr.
+
+```
 
 ### Second Normal Form (2NF)
 - Must Be in `1NF` already
