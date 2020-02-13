@@ -1,4 +1,4 @@
-# Day 19 - DB (SQL) normalization
+# Day 19 - DB (SQL) NORMALIZATION
 
 ### PROCESS (DB normalization) 
 ```
@@ -6,7 +6,7 @@ First Normal Form (1NF) -> Second Normal Form (2NF) -> Third Normal Form (3NF) -
 ```
 ### BUILD THE TABLE 
 - Let's say we have a `movie ranting` table defined as below
-- [sql](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_19/movie_rented.sql)
+- [SQL](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_19/movie_rented.sql)
 
 ```sql
 -- sqlite 
@@ -37,11 +37,11 @@ select * from movie_ranting;
 ```
 - In the below tutorial, we will step by step demo how to `normalize` this tbale via `1NF`, `2NF`, `3NF`...
 
-### First Normal Form (1NF)
+### FIRST NORMAL FORM (1NF)
 - Each table cell should contain a single value.
 - Each record needs to be unique.
 - So, we can modify the movie ranting table to `1NF pattern` via below commands:
-- [sql](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_19/movie_rented_1NF.sql)
+- [SQL](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_19/movie_rented_1NF.sql)
 
 ```sql
 -- sqlite 
@@ -93,24 +93,24 @@ select * from movie_rented_1NF;
 
 ```
 
-### Second Normal Form (2NF)
+### SECOND NORMAL FORM (2NF)
 - Must Be in `1NF` already
 - Single Column Primary Key
 - The entity should be considered already in 1NF, and all attributes within the entity should depend solely on the unique identifier of the entity.
 
-### Third Normal Form (3NF)
+### THIRD NORMAL FORM (3NF)
 - Must Be in `2NF` already
 - Has no transitive functional dependencies
 
-### Boyce-Codd Normal Form (BCNF) (3.5NF)
+### BOYCE-CODD NORMAL FORM (BCNF) (3.5NF)
 
-### Fourth Normal Form (4NF) 
+### FOURTH NORMAL FORM (4NF) 
 
-### Fifth Normal Form (5NF)
+### FIFTH NORMAL FORM (5NF)
 
-### Data cleaning
+### DATA CLEANING
 
-### Concepts 
+### CONCEPTS 
 - Primary Key
     - A primary is a single column value used to identify a database record uniquely.
     - A primary key cannot be NULL
@@ -132,7 +132,7 @@ select * from movie_rented_1NF;
     - A transitive functional dependency is when changing a non-key column, might cause any of the other non-key columns to change
 
 
-### Ref 
+### REF 
 - DB normalization
  - https://www.guru99.com/database-normalization.html
  - https://www.w3schools.in/dbms/database-normalization/

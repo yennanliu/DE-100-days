@@ -1,6 +1,7 @@
 -- http://www.samuelbosch.com/2018/02/split-into-rows-sqlite.html
 -- https://gist.github.com/dannguyen/9a2b1505bbe097b765a9e7c2e1f7a23c
 
+-- sqlite 
 create table sub 
 as select * from ( 
 WITH RECURSIVE split(full_names_, movie_rented_, rest) AS (
