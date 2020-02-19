@@ -24,9 +24,9 @@
 15. Day15 - ETL framework, concepts
 
 #### Part 4 : Implementation part I : Data Model  
-16. Day16 - Pattern of data model : choose the right data model 
-17. [Day17 - Case I : Design data model for an e-commerce Startup](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_17/data_model_design.md)
-18. Day18 - Build the tables : primary key, foreign key, index....
+16. Day16 - Pattern of data model : choose the right data model
+17. Day17 - Build the tables : primary/foreign key index & DB migration 
+18. [Day18 - Case I : Design data model for an e-commerce Startup](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_18/data_model_design.md)
 19. [Day19 - Re-build the tables : normalization I, II, III, data cleaning....](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_19/db_normalization.md)
 20. Day20 - Case II : Re-design the data model ( e-commerce Startup)
 
