@@ -64,7 +64,7 @@
 43. Day43 - Hive intro : commands / work with HDFS data via Hive 
 44. Day44 - Pig intro : commands / work with HDFS data via Pig 
 45. Day45 - Hbase intro : commands / work with HDFS data via Hbase 
-45-extra-1. - Build a Hadoop infra : Ambari + Hadoop + Hive + Mysql + sqoop 
+	- 45-extra-1 - Build a Hadoop infra : Ambari + Hadoop + Hive + Mysql + sqoop 
 
 #### Part 10 : Big data II
 46. Day46 - Spark intro I: basic commands / core concepts / RDD / worker, driver, Master
@@ -107,9 +107,9 @@
 73. Day 73 - Set up Kafka 
 74. Day 74 - Set up AWS Kinesis 
 75. Day 75 - Case II : Fetch event data via Kafka, Kinesis
-75-extra-1. - Kafka Producers, Topics, Consumers, Consumer Groups
-75-extra-2. - Kafka Clusters, Brokers, Partitions, Replicas, Leaders, and Followers
-75-extra-3. - Kafka managment
+	- 75-extra-1 - Kafka Producers, Topics, Consumers, Consumer Groups
+	- 75-extra-2 - Kafka Clusters, Brokers, Partitions, Replicas, Leaders, and Followers
+	- 75-extra-3 - Kafka managment
 
 #### Part 16 : Streaming system design: latency, response, load-balance
 76. Day 76 - What's a good streaming system
