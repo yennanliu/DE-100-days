@@ -37,7 +37,7 @@
 24. Day24 - Get with ETL framework : Airflow
 25. Day25 - Build the ETL with framework : Airflow
 
-#### Part 6 : Database I : database low level operations
+#### Part 6 : Database I : database low level op & tune
 26. Day26 - How does/what mode hard-disk save/scan/update data ? 
 27. Day27 - DB data structure / algorithm    
 28. Day28 - Analyze SQL : underlying operation when DB runs an quer
@@ -47,7 +47,7 @@
 #### Part 7 : Database II : SQL/No-SQL (key-value)/cached DB
 31. Day31 - Relational DB (SQL) : Mysql/Postgresql
 32. Day32 - Non Relational DB (No-SQL) : MongoDB
-33. Day33 - Cached DB : Redis
+33. Day33 - KV (key-value) DB : Redis
 34. Day34 - Case I : Save/query schema/schema-less data via SQL/No-SQL
 35. Day35 - Case II : Save/query temp data at Redis, and sync it to Mysql  
 
@@ -59,11 +59,12 @@
 40. Day40 - Case II : Design an online-game batch leaderboard
 
 #### Part 9 : Big data I
-41. Day41 - What's big data ? big data intro
-42. Day42 - Big data ecosystem intro : Hadoop/Hive/Pig/Hbase/Presto/Spark...
-43. Day43 - Hadoop intro : basic commands / HDFS file system op / work with HDFS data
-44. Day44 - Hive intro :   basic commands / work with HDFS data via Hive 
-45. Day45 - Pig intro :   basic commands / work with HDFS data via Pig 
+41. Day41 - Big data & Hadoop ecosystem intro : Hadoop/Ambari/Hive/Pig/Hbase/Presto/Spark/Zookeeper/Sqoop...
+42. Day42 - Hadoop intro : commands / HDFS file system op / work with HDFS data
+43. Day43 - Hive intro : commands / work with HDFS data via Hive 
+44. Day44 - Pig intro : commands / work with HDFS data via Pig 
+45. Day45 - Hbase intro : commands / work with HDFS data via Hbase 
+45-extra-1. - Build a Hadoop infra : Ambari + Hadoop + Hive + Mysql + sqoop 
 
 #### Part 10 : Big data II
 46. Day46 - Spark intro I: basic commands / core concepts / RDD / worker, driver, Master
@@ -81,10 +82,10 @@
 
 #### Part 12 : Scaling system (Horizontal and Vertical)
 56. [Day 56 - DB Partition](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_56/db_partition.md) 
-57. Day 57 - DB replication 
-58. Day 58 - Leader-follower framework
-59. Day 59 - Leader-leader framework  
-60. Day 60 - No Leader framework  
+57. Day 57 - DB sharding 
+58. Day 58 - DB replicaiton (replica) 
+59. Day 59 - Leader-leader/Leader-follower/No Leader framework  
+60. Day 60 - Other scaling strategy  
 
 #### Part 13 : Distributed system 
 61. Day 56 - Framework : Leader/Follower, Leader-Leader, 
@@ -106,6 +107,9 @@
 73. Day 73 - Set up Kafka 
 74. Day 74 - Set up AWS Kinesis 
 75. Day 75 - Case II : Fetch event data via Kafka, Kinesis
+75-extra-1. - Kafka Producers, Topics, Consumers, Consumer Groups
+75-extra-2. - Kafka Clusters, Brokers, Partitions, Replicas, Leaders, and Followers
+75-extra-3. - Kafka managment
 
 #### Part 16 : Streaming system design: latency, response, load-balance
 76. Day 76 - What's a good streaming system
@@ -115,7 +119,11 @@
 80. Day 80 - Case III : Design a event collect system via Kinesis, elasticsearch, and mysql 
 
 #### Part 17 : Implementation I : streaming system for an online game  
-- dev 
+81. Day 81 - Case I : system design : online game stream system
+82. Day 82 - Stream via confluent/Kafka  
+83. Day 83 - Stream log to Nosql/Datalake
+84. Day 84 - ETL on Stream log to DB/DW 
+85. Day 85 - Case V : Design a event collect system via Kinesis/confluent, elasticsearch, and mysql  
 
 #### Part 18 : Lambda architecture (Streaming system + Batch system)
 - dev 
