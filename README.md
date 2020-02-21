@@ -89,8 +89,8 @@
 
 #### Part 13 : Distributed system 
 61. Day 56 - Framework : Leader/Follower, Leader-Leader, 
-62. Day 57 - Latency
-63. Day 58 - Memory Access
+62. Day 57 - Latency, Memory Access
+63. Day 58 - CAP theory : Consistency, Availability and Partition Tolerance
 64. Day 59 - Partial failure and concurrency
 65. Day 60 - Case I : Design a Web app with leader-follower DB backend
 
