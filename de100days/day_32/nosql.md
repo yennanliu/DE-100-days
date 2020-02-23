@@ -8,6 +8,17 @@
 - Column oriented - [Hbase](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/hbase.md), Big-table, Cassandra
 - Graph oriented - Neo4j
 
+## CAP theorem
+- `Consistency, Availability & Partition -Tolerance`
+- A service can only reach `two of the three` of the metric above
+- i.e. 
+	- Consistency + Availability : Cassandra  Mysql
+	- Consistency + Partition -Tolerance  :  Hbase, MongoDB
+	- Availability + Partition -Tolerance : Cassandra 
+
+<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/CAP_trade_off.png" width="800" height="400"></p>
+
+
 ## Key-value (KV) store
 
 ## Document oriented : HBase VS Cassandra 
