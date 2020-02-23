@@ -7,7 +7,7 @@
 2. Day02 - Progamming language basics : Python 
 3. Day03 - Progamming language basics : Scala 
 4. Day04 - Script basics : Bash
-5. [Day05 - SQL basic, DDL, DQL, DML, DCL and TCL Commands](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_05/sql_basic.md)
+5. [Day05 - SQL basic, DDL, DQL, DML, DCL and TCL Commands](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_05/sql_basic.md)
 
 #### Part 2 : Basic concepts  
 6.  Day06 - Where're the data come from ? type of data source 
@@ -27,7 +27,7 @@
 16. Day16 - Pattern of data model : choose the right data model
 17. [Day17 - Build the tables : primary/foreign key index & DB migration](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_17/build_table_db_migration.md)
 18. [Day18 - Case I : Design data model for an e-commerce Startup](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_18/data_model_design.md)
-19. [Day19 - Re-build the tables : normalization I, II, III, data cleaning....](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_19/db_normalization.md)
+19. [Day19 - Re-build the tables : normalization I, II, III, data cleaning....](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_19/db_normalization.md)
 20. Day20 - Case II : Re-design the data model ( e-commerce Startup)
 
 #### Part 5 : Implementation part II : ETL 
@@ -46,7 +46,7 @@
 
 #### Part 7 : Database II : SQL/No-SQL (key-value)/cached DB
 31. Day31 - Relational DB (SQL) : Mysql/Postgresql
-32. Day32 - Non Relational DB (No-SQL) : MongoDB
+32. Day32 - Non Relational DB (No-SQL) : MongoDB, Hbase, BigTable, Cassendra
 33. Day33 - KV (key-value) DB : Redis
 34. Day34 - Case I : Save/query schema/schema-less data via SQL/No-SQL
 35. Day35 - Case II : Save/query temp data at Redis, and sync it to Mysql  
@@ -81,7 +81,7 @@
 55. Day 55 - ETL : datalake -> database
 
 #### Part 12 : Scaling system (Horizontal and Vertical)
-56. [Day 56 - DB Partition](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_56/db_partition.md) 
+56. [Day 56 - DB Partition](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_56/db_partition.md) 
 57. Day 57 - DB sharding 
 58. Day 58 - DB replicaiton (replica) 
 59. Day 59 - Leader-leader/Leader-follower/No Leader framework  
