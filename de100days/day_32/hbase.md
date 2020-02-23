@@ -3,6 +3,7 @@
 ## Feature of Hbase
 
 ## Hbase Use case
+
 - We should use HBase where we have large data sets (millions or billions or rows and columns) and we require fast, random and real time, read and write access over the data.
 - The data sets are distributed across various clusters and we need high scalability to handle data.
 - The data is gathered from various data sources and it is either semi structured or unstructured data or a combination of all. It could be handled easily with HBase.
@@ -57,6 +58,11 @@
 	- Each column qualifier present in HBase denotes attribute corresponding to the object which resides in the cell.
 
 ## HBase Architecture and it’s Components
+
+- HBase has three major components i.e., `HMaster Server`, `HBase Region Server`,  and `Zookeeper`
+
+<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/hbase_architecture.png" width="800" height="400"></p>
+
 ## HBase Write Mechanism
 ## HBase Read Mechanism
 ## HBase Performance Optimization Mechanisms
