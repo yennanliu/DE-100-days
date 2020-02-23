@@ -16,7 +16,7 @@
 	- Consistency + Partition -Tolerance  :  Hbase, MongoDB
 	- Availability + Partition -Tolerance : Cassandra 
 
-<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/CAP_trade_off.png" width="800" height="400"></p>
+<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/DB_CAP_trade_off.png" width="800" height="400"></p>
 
 
 ## Key-value (KV) store
