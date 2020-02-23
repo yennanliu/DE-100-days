@@ -11,7 +11,7 @@
 ## Key-value (KV) store
 
 ## Document oriented : HBase VS Cassandra 
-- HBase is modelled on BigTable (Google) while Cassandra is based on DynamoDB (Amazon) initially developed by Facebook.
+- `HBase` is modelled on `BigTable (Google)` while `Cassandra` is based on ` DynamoDB (Amazon)` initially developed by Facebook.
 - HBase leverages Hadoop infrastructure (HDFS, ZooKeeper) while Cassandra evolved separately but you can combine Hadoop and Cassandra as per your needs.
 - HBase has several components which communicate together like HBase HMaster, ZooKeeper, NameNode, Region Severs. While Cassandra is a single node type, in which all nodes are equal and performs all functions. Any node can be the coordinator; this removes Single Point of failure.
 - HBase is optimized for read and supports single writes, which leads to strict consistency. HBase supports Range based scans, which makes scanning process faster. Whereas Cassandra supports single row reads which maintains eventual consistency.
