@@ -1,10 +1,12 @@
 # Day 32 - NoSQL
 
+<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/type_of_nosql_db.png" width="800" height="400"></p>
+
 ## Type of NoSQL
-	- Key-value (KV) store
-	- Document oriented
-	- Column oriented
-	- Graph oriented
+- Key-value (KV) store - Redis
+- Document oriented - MongoDB
+- Column oriented - [Hbase](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/hbase.md), Big-table, Cassandra
+- Graph oriented - Neo4j
 
 ## Key-value (KV) store
 
