@@ -45,8 +45,8 @@
 30. Day30 - DB configuration/metrics/performance...
 
 #### Part 7 : Database II : SQL/No-SQL (key-value)/cached DB
-31. Day31 - Relational DB(SQL)/DW : Mysql/Postgresql
-32. Day32 - [Non Relational DB (No-SQL) : MongoDB, Hbase, BigTable, Cassendra](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/nosql.md)
+31. [Day31 - Relational DB(SQL)/DW : Mysql/Postgresql](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_31/relation_db_dw.md)
+32. [Day32 - Non Relational DB (No-SQL) : MongoDB, Hbase, BigTable, Cassendra](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/nosql.md)
 33. Day33 - KV (key-value) DB : Redis
 34. Day34 - Case I : Save/query schema/schema-less data via SQL/No-SQL
 35. Day35 - Case II : Save/query temp data at Redis, and sync it to Mysql  
