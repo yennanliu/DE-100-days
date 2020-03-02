@@ -41,7 +41,7 @@
 26. Day26 - How does/what mode hard-disk save/scan/update data ? 
 27. Day27 - DB data structure / algorithm    
 28. Day28 - Analyze SQL : underlying operation when DB runs an quer
-29. Day29 - DB partition, sharding, replication, performance tune..
+29. [Day29 - DB partition, sharding, replication, performance tune..](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_29/db_partition_sharding_replication_tune.md)
 30. Day30 - DB configuration/metrics/performance...
 
 #### Part 7 : Database II : SQL/No-SQL (key-value)/cached DB
