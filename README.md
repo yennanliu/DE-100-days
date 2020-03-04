@@ -31,11 +31,11 @@
 20. Day20 - Case II : Re-design the data model ( e-commerce Startup)
 
 #### Part 5 : Implementation part II : ETL 
-21. Day21 - Workflow of process : ETL design
-22. Day22 - Build a simple ETL: extract -> transform -> load    
-23. Day23 - Monitor the ETL jobs : log/job state/job DB
+21. Day21 - Workflow of process : ETL, Build a simple ETL
+22. Day22 - Monitor the ETL jobs : log/job state/job DB    
+23. Day23 - Get with ETL framework : Airflow
 24. Day24 - Get with ETL framework : Airflow
-25. Day25 - Build the ETL with framework : Airflow
+25. [Day25 - DW OP : Incremental Loading...](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_25/DW_op.md)
 
 #### Part 6 : Database I : database low level op & tune
 26. Day26 - How does/what mode hard-disk save/scan/update data ? 
