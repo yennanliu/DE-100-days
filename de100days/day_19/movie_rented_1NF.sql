@@ -18,12 +18,12 @@ SELECT full_names_ as full_names, movie_rented_  as movie_rented
  ORDER BY full_names, movie_rented);
 
 create table movie_rented_1NF
-as select * from (
+AS select * from (
 select 
-sub.full_names, 
-sub.movie_rented, 
-movie_ranting.physical_address,
-movie_ranting.saluation
+sub.full_names AS full_names, 
+sub.movie_rented AS movie_rented, 
+movie_ranting.physical_address AS physical_address,
+movie_ranting.saluation AS saluation
 from sub inner join movie_ranting
 on sub.full_names  = movie_ranting.full_names
 order by 1,2
