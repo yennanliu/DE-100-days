@@ -88,11 +88,11 @@
 60. Day 60 - Other scaling strategy  
 
 #### Part 13 : Distributed system 
-61. Day 56 - Framework : Leader/Follower, Leader-Leader, 
-62. Day 57 - Latency, Memory Access
+61. Day 61 - Framework : Leader/Follower, Leader-Leader, 
+62. Day 62 - Latency, Memory Access
 63. Day 63 - CAP theory : Consistency, Availability and Partition Tolerance
-64. Day 59 - Partial failure and concurrency
-65. Day 60 - Case I : Design a Web app with leader-follower DB backend
+64. Day 64 - Partial failure and concurrency
+65. Day 65 - Case I : Design a Web app with leader-follower DB backend
 
 #### Part 14 : Streaming data ( V.S. batch data)
 66. Day 66 - Streaming data properties : time window, recency, ordering.. 
@@ -100,6 +100,10 @@
 68. Day 68 - Storage steaming data : cache, No-SQL, No schema file system 
 69. Day 69 - steaming data -> batch data
 70. Day 70 - Case I : Design a process report real-time data and save them
+	- 70-extra-1 - Stream framework : Apache Spark-stream
+	- 70-extra-2 - Stream framework : Apache Flink
+	- 70-extra-3 - Stream framework : Apache Beam 
+	- 70-extra-4 - Stream framework : Apache Storm
 
 #### Part 15 : Process streaming data : Kafka, RabbitMQ, Kinesis, Pubsub 
 71. Day 71 - Concept of digest streaming data 
@@ -125,10 +129,10 @@
 84. Day 84 - ETL on Stream log to DB/DW 
 85. Day 85 - Case V : Design a event collect system via Kinesis/confluent, elasticsearch, and mysql  
 
-#### Part 18 : Lambda architecture (Streaming system + Batch system)
+#### Part 18 : Architecture : Lambda / Kappa
 - dev 
 
-#### Part 19 : Kappa architecture 
+#### Part 19 : extra 
 - dev 
 
 #### Part 20 : Conclusion   
