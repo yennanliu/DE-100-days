@@ -5,31 +5,31 @@
 First Normal Form (1NF) -> Second Normal Form (2NF) -> Third Normal Form (3NF) -> Fourth Normal Form (4NF) -> Fifth Normal Form (5NF)
 ```
 ### BUILD THE TABLE 
-- Let's say we have a `movie ranting` table defined as below
-- [SQL](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_19/movie_rented.sql)
+- Let's say we have a `movie rating` table defined as below
+- [SQL](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_19/movie_rated.sql)
 
 ```sql
 -- sqlite 
-CREATE TABLE movie_ranting (
+CREATE TABLE movie_rating (
     full_names TEXT NOT NULL,
     physical_address TEXT NOT NULL,
-    movie_rented TEXT NOT NULL,
+    movie_rated TEXT NOT NULL,
     saluation TEXT NOT NULL,
     category TEXT NOT NULL
 );
 
-INSERT INTO movie_ranting (full_names, physical_address, movie_rented, saluation, category) 
+INSERT INTO movie_rating (full_names, physical_address, movie_rated, saluation, category) 
 VALUES('JanetJones', 'First Street Plot No 4', 'Piratesofthecaribbean,ClashoftheTitans', 'Ms.', 'Action, Action');
-INSERT INTO movie_ranting (full_names, physical_address, movie_rented, saluation, category) 
+INSERT INTO movie_rating (full_names, physical_address, movie_rated, saluation, category) 
 VALUES('RobertPhill', '3rd street 34', 'ForgettingSarahMarshal,DaddyLittlegirls', 'Mr.', 'Romance, Romance');
-INSERT INTO movie_ranting (full_names, physical_address, movie_rented, saluation, category) 
+INSERT INTO movie_rating (full_names, physical_address, movie_rated, saluation, category) 
 VALUES('RobertPhill', '5th Avenue', 'ClashoftheTitans,DaddyLittlegirls', 'Mr.', 'Action');
 
 ```
 ```sql
 -- sqlite 
 -- check the table 
-select * from movie_ranting;
+select * from movie_rating;
 -- JanetJones|First Street Plot No 4|Piratesofthecaribbean,ClashoftheTitans|Ms.|Action, Action
 -- RobertPhill|3rd street 34|ForgettingSarahMarshal,DaddyLittlegirls|Mr.|Romance, Romance
 -- RobertPhill|5th Avenue|ClashoftheTitans,DaddyLittlegirls|Mr.|Action
@@ -40,35 +40,35 @@ select * from movie_ranting;
 ### FIRST NORMAL FORM (1NF)
 - Each table cell should contain a single value.
 - Each record needs to be unique.
-- So, we can modify the movie ranting table to `1NF pattern` via below commands:
-- [SQL](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_19/movie_rented_1NF.sql)
+- So, we can modify the movie rating table to `1NF pattern` via below commands:
+- [SQL](https://github.com/yennanliu/DE-100-days/blob/master/de100days/Day_19/movie_rated_1NF.sql)
 
 ```sql
 -- sqlite 
 create table sub 
 as select * from ( 
-WITH RECURSIVE split(full_names_, movie_rented_, rest) AS (
-  SELECT full_names, '', movie_rented || ',' FROM movie_ranting
+WITH RECURSIVE split(full_names_, movie_rated_, rest) AS (
+  SELECT full_names, '', movie_rated || ',' FROM movie_rating
    UNION ALL
   SELECT full_names_, 
          substr(rest, 0, instr(rest, ',')),
          substr(rest, instr(rest, ',')+1)
     FROM split
    WHERE rest <> '')
-SELECT full_names_ as full_names, movie_rented_  as movie_rented
+SELECT full_names_ as full_names, movie_rated_  as movie_rated
   FROM split 
- WHERE movie_rented_ <> ''
- ORDER BY full_names, movie_rented);
+ WHERE movie_rated_ <> ''
+ ORDER BY full_names, movie_rated);
 
-create table movie_rented_1NF
+create table movie_rated_1NF
 as select * from (
 select 
 sub.full_names, 
-sub.movie_rented, 
-movie_ranting.physical_address,
-movie_ranting.saluation
-from sub inner join movie_ranting
-on sub.full_names  = movie_ranting.full_names
+sub.movie_rated, 
+movie_rating.physical_address,
+movie_rating.saluation
+from sub inner join movie_rating
+on sub.full_names  = movie_rating.full_names
 order by 1,2
 );  
 
@@ -78,7 +78,7 @@ order by 1,2
 
 ```sql
 -- sqlite 
-select * from movie_rented_1NF;
+select * from movie_rated_1NF;
 
 -- JanetJones|ClashoftheTitans|First Street Plot No 4|Ms.
 -- JanetJones|Piratesofthecaribbean|First Street Plot No 4|Ms.
