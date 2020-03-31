@@ -131,7 +131,6 @@ select * from movie_rated_1NF;
 - Transitive functional dependencies
     - A transitive functional dependency is when changing a non-key column, might cause any of the other non-key columns to change
 
-
 ### REF 
 - DB normalization
  - https://www.guru99.com/database-normalization.html

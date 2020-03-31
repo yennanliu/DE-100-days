@@ -31,6 +31,6 @@ movie_rating.physical_address AS physical_address,
 movie_rating.saluation AS saluation
 from sub inner join movie_rating
 on sub.full_names  = movie_rating.full_names
-AND sub.physical_address  = movie_rating.physical_address
+-- AND sub.physical_address  = movie_rating.physical_address
 order by 1,2,3 
 );  
