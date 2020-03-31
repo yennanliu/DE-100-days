@@ -24,14 +24,14 @@ physical_address AS physical_address,
 saluation AS saluation
 FROM  movie_rated_1NF;
 
--- INSERT into movie_rated_list (member_id, movie_rated)
--- SELECT DISTINCT 
--- member.member_id,
--- movie_rated_1NF.movie_rated 
--- FROM movie_rated_1NF
--- LEFT JOIN 
--- member
--- ON movie_rated_1NF.full_names = member.full_names;
+INSERT into movie_rated_list (member_id, movie_rated)
+SELECT DISTINCT 
+member.member_id,
+movie_rated_1NF.movie_rated 
+FROM movie_rated_1NF
+JOIN 
+member
+ON movie_rated_1NF.full_names = member.full_names;
 
 -- SELECT 
 -- member.member_id,

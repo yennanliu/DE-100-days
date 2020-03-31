@@ -3,7 +3,7 @@
 
 -- sqlite 
 create table sub 
-as select * from ( 
+as select DISTINCT * from ( 
 WITH RECURSIVE split(full_names_, movie_rated_, rest) AS (
   SELECT full_names, '', movie_rated || ',' FROM movie_rating
    UNION ALL
@@ -18,13 +18,19 @@ SELECT full_names_ as full_names, movie_rated_  as movie_rated
  ORDER BY full_names, movie_rated);
 
 create table movie_rated_1NF
-AS select * from (
-select 
+AS SELECT DISTINCT 
+full_names,
+physical_address,
+movie_rated,
+saluation
+ from (
+SELECT 
 sub.full_names AS full_names, 
 sub.movie_rated AS movie_rated, 
 movie_rating.physical_address AS physical_address,
 movie_rating.saluation AS saluation
 from sub inner join movie_rating
 on sub.full_names  = movie_rating.full_names
-order by 1,2
+AND sub.physical_address  = movie_rating.physical_address
+order by 1,2,3 
 );  
