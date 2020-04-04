@@ -1,4 +1,4 @@
-# Cassandra intro
+# Cassandra INTRO
 
 ## What is Apache Cassandra?
 - Apache Cassandra is a free and open-source distributed NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.
@@ -28,7 +28,7 @@
 - In Cassandra, one or more of the nodes in a cluster act as replicas for a given piece of data. If it is detected that some of the nodes responded with an out-of-date value, Cassandra will return the most recent value to the client. After returning the most recent value, Cassandra performs a read repair in the background to update the stale values.
 <p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/cassandra_replication.jpg" width="800" height="400"></p>
 
-## *Components of Cassandra*
+## Components of Cassandra
 - Node 
 	− It is the place where data is stored.
 - Data center 
@@ -49,6 +49,25 @@
 	- Every write activity of nodes is captured by the commit logs written in the nodes. Later the data will be captured and stored in the mem-table. Whenever the mem-table is full, data will be written into the SStable data file. All writes are automatically partitioned and replicated throughout the cluster. Cassandra periodically consolidates the SSTables, discarding unnecessary data.
 - Read Operations
 	- During read operations, Cassandra gets values from the mem-table and checks the bloom filter to find the appropriate SSTable that holds the required data.
+
+## Cassandra - Data Model
+- Cluster
+	- Cassandra database is distributed over several machines that operate together. The outermost container is known as the Cluster. For failure handling, every node contains a replica, and in case of a failure, the replica takes charge. Cassandra arranges the nodes in a cluster, in a ring format, and assigns data to them.
+- Keyspace
+	- Keyspace is the outermost container for data in Cassandra. The basic attributes of a Keyspace in Cassandra are −
+
+	- Replication factor − It is the number of machines in the cluster that will receive copies of the same data.
+
+	- Replica placement strategy − It is nothing but the strategy to place replicas in the ring. We have strategies such as 
+		- simple strategy (rack-aware strategy)
+		- old network topology strategy (rack-aware strategy) 
+		- network topology strategy (datacenter-shared strategy).
+	- Column families − Keyspace is a container for a list of one or more column families. A column family, in turn, is a container of a collection of rows. Each row contains ordered columns. Column families represent the structure of your data. Each keyspace has at least one and often many column families.
+
+<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/cassandra_keyspace_colfamily.jpg" width="800" height="400"></p>
+
+- Column Family
+	- A column family is a container for an ordered collection of rows. Each row, in turn, is an ordered collection of columns. The following table lists the points that differentiate a column family from a table of relational databases.
 
 ## What is a Column Family?
 - A column family is a container for an ordered collection of rows, each of which is itself an ordered collection of columns. We can freely add any column to any column family at any time, depending on your needs. The comparator value indicates how columns will be sorted when they are returned to you in a query.
