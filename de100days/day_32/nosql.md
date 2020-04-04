@@ -3,10 +3,19 @@
 <p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/type_of_nosql_db.png" width="800" height="400"></p>
 
 ## Type of NoSQL
-- Key-value (KV) store - Redis
-- Document oriented - MongoDB
-- Column oriented - [Hbase](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/hbase.md), Big-table, Cassandra
-- Graph oriented - Neo4j
+- Key-value (KV) store 
+	- [Redis](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/redis.md)
+	- All of the data within database consists of an indexed key and a value. A key may correspond to one or multiple values (`hash table`). Provides a great performance and can be very easily scaled as per business needs.
+- Document oriented
+	- MongoDB
+	- The data record is the JSON/XML representation of key-value pairs. Every record can have a different set of fields.
+Document DBs are similar to Key-value pairs, But the difference is that the key is associated with a document
+- Column oriented 
+	- [Hbase](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/hbase.md), Big-table, [Cassandra](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/cassandra.md)
+	- Data is stored in cells are grouped in columns of data rather than as rows of data. Columns are logically grouped into column families. One row may have one or multiple data records, which is indexed by a partition key.
+- Graph oriented 
+	- Neo4j
+	- The type of NoSQL database in which a flexible graphical representation is used. The key purpose is to store relationships between nodes.
 
 ## CAP theorem
 - `Consistency, Availability & Partition -Tolerance`
@@ -17,9 +26,6 @@
 	- Availability + Partition -Tolerance : Cassandra 
 
 <p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/DB_CAP_trade_off.png" width="800" height="400"></p>
-
-
-## Key-value (KV) store
 
 ## Document oriented : HBase VS Cassandra 
 - `HBase` is modelled on `BigTable (Google)` while `Cassandra` is based on ` DynamoDB (Amazon)` initially developed by Facebook.
