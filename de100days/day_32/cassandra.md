@@ -51,6 +51,7 @@
 	- During read operations, Cassandra gets values from the mem-table and checks the bloom filter to find the appropriate SSTable that holds the required data.
 
 ## Cassandra - Data Model
+- https://www.tutorialspoint.com/cassandra/cassandra_data_model.htm
 - Cluster
 	- Cassandra database is distributed over several machines that operate together. The outermost container is known as the Cluster. For failure handling, every node contains a replica, and in case of a failure, the replica takes charge. Cassandra arranges the nodes in a cluster, in a ring format, and assigns data to them.
 - Keyspace
@@ -68,9 +69,30 @@
 
 - Column Family
 	- A column family is a container for an ordered collection of rows. Each row, in turn, is an ordered collection of columns. The following table lists the points that differentiate a column family from a table of relational databases.
+	- In Cassandra, although the column families are defined, the columns are not. You can freely add any column to any column family at any time.
+	- In Cassandra, a table contains columns, or can be defined as a super column family.
+
 
 ## What is a Column Family?
 - A column family is a container for an ordered collection of rows, each of which is itself an ordered collection of columns. We can freely add any column to any column family at any time, depending on your needs. The comparator value indicates how columns will be sorted when they are returned to you in a query.
+
+- A Cassandra column family has the following attributes −
+	- keys_cached − It represents the number of locations to keep cached per SSTable.
+	- rows_cached − It represents the number of rows whose entire contents will be cached in memory.
+	- preload_row_cache − It specifies whether you want to pre-populate the row cache.
+<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/cassandra_column_family.jpg" width="800" height="400"></p>
+
+- Column
+	- A column is the basic data structure of Cassandra with three values, namely key or column name, value, and a time stamp. Given below is the structure of a column.
+<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/cassandra_column.jpg" width="800" height="400"></p>
+
+- SuperColumn
+	- A super column is a special column, therefore, it is also a key-value pair. But a super column stores a map of sub-columns.
+	- Generally column families are stored on disk in individual files. Therefore, to optimize performance, it is important to keep columns that you are likely to query together in the same column family, and a super column can be helpful here.Given below is the structure of a super column.
+<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/cassandra_super_column.jpg" width="800" height="400"></p>
+
+## Data Models : Cassandra VS RDBMS
+<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/dbmodel_RDBMS_cassandra.png" width="800" height="400"></p>
 
 ##  What is a Row in Cassandra? What are the different elements of it?
 - A row is a collection of sorted columns. It is the smallest unit that stores related data in Cassandra. Any component of a Row can store data or metadata
