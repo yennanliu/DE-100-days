@@ -12,7 +12,7 @@
 - `Consistency, Availability & Partition -Tolerance`
 - A service can only reach `two of the three` of the metric above
 - i.e. 
-	- Consistency + Availability : Cassandra  Mysql
+	- Consistency + Availability : Mysql
 	- Consistency + Partition -Tolerance  :  Hbase, MongoDB
 	- Availability + Partition -Tolerance : Cassandra 
 
@@ -29,4 +29,6 @@
 - Cassandra does not support range based row scans, which slows the scanning process as compared to HBase.
 - HBase supports ordered partitioning, in which rows of a Column Family are stored in RowKey order, whereas in Casandra ordered partitioning is a challenge. Due to RowKey partitioning the scanning process is faster in HBase as compared to Cassandra.
 - HBase does not support read load balancing, one Region Server serves the read request and the replicas are only used in case of failure. While Cassandra supports read load balancing and can read the same data from various nodes. This can compromise the consistency.
-- In `CAP (Consistency, Availability & Partition -Tolerance)` theorem HBase maintains Consistency and Availability while Cassandra focuses on Availability and Partition -Tolerance.
+- In `CAP (Consistency, Availability & Partition -Tolerance)` theorem : 
+	- HBase maintains Consistency and Partition -Tolerance 
+	- Cassandra focuses on Availability and Partition -Tolerance.
