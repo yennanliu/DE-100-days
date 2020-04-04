@@ -16,7 +16,7 @@
 	- Column Values
 
 ## How does Cassandra perform Read operation?
-<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/cassandra_read.png" width="100" height="200"></p>
+<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/cassandra_read.png" width="200" height="300"></p>
 <p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/cassandra_read2.png" width="800" height="400"></p>
 
 ## Ref
