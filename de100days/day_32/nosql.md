@@ -2,6 +2,11 @@
 
 <p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/type_of_nosql_db.png" width="800" height="400"></p>
 
+## Property of NoSQL
+- Design Simplicity
+- Horizontal Scaling
+- High Availability (HA)
+
 ## Type of NoSQL
 - Key-value (KV) store 
 	- [Redis](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/redis.md)
