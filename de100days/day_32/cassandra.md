@@ -84,12 +84,12 @@
 
 - Column
 	- A column is the basic data structure of Cassandra with three values, namely key or column name, value, and a time stamp. Given below is the structure of a column.
-<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/cassandra_column.jpg" width="400" height="300"></p>
+<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/cassandra_column.jpg"></p>
 
 - SuperColumn
 	- A super column is a special column, therefore, it is also a key-value pair. But a super column stores a map of sub-columns.
 	- Generally column families are stored on disk in individual files. Therefore, to optimize performance, it is important to keep columns that you are likely to query together in the same column family, and a super column can be helpful here.Given below is the structure of a super column.
-<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/cassandra_super_column.jpg" width="400" height="300"></p>
+<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/cassandra_super_column.jpg"></p>
 
 ## Data Models : Cassandra VS RDBMS
 <p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/dbmodel_RDBMS_cassandra.png" width="800" height="400"></p>
