@@ -8,13 +8,56 @@
 - High Availability (HA)
 
 ## Type of NoSQL
-- Key-value (KV) store 
+- Key-value (KV) store
+	- example
+```json
+{
+    name: "Jimmy Johnson",
+    email: "jjohnson@test.com",
+    street: "13278 Southside Blvd",
+    city: "Orlando",
+    state:  "FL",
+    country: "USA"
+}
+```
+- Cached store 
 	- [Redis](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/redis.md)
+	- [Memcached](https://github.com/memcached/memcached)
 	- All of the data within database consists of an indexed key and a value. A key may correspond to one or multiple values (`hash table`). Provides a great performance and can be very easily scaled as per business needs.
+	- As with document databases, a key-value data structure is like a dictionary or a map, but in this case it cannot be nested. It uses a unique key—which can be synthetic or hash-algorithm-generated—to point to its own value list. The value can be of different types: string, JSON, basic large object (BLOB), etc.
 - Document oriented
 	- MongoDB
 	- The data record is the JSON/XML representation of key-value pairs. Every record can have a different set of fields.
+	- A document database is mostly used for semi-structured data storage in a self-describing document format like JSON. Data document structures—defined by key-value hierarchies—can either be identical or different. Documents with the same attributes will be grouped into “collections” which is similar to tables in a relational databases.
 Document DBs are similar to Key-value pairs, But the difference is that the key is associated with a document
+	- example
+```json
+{
+    "id": "IC001",
+    "Category": "Ice Cream",
+    "Product Name": "Celebration Cookie Cake",
+    "Size": 2.5,
+    "Details": {
+        "shape": [
+            { "id": "001", "type": "Round" },
+            { "id": "002", "type": "Sheet" },
+            { "id": "003", "type": "Roll" },
+            { "id": "004", "type": "Dome" }
+        ],	
+        "cream flavor": [
+            { "id": "1001", "type": "Mint" },
+            { "id": "1002", "type": "Oreo" },
+            { "id": "1045", "type": "Chocolate" },
+            { "id": "1021", "type": "Cheese Cake" },
+            { "id": "1022", "type": "Vanilla" },
+            { "id": "1033", "type": "Cookie" },
+            { "id": "1014", "type": "Butter Pecan" }
+        ]
+    },
+    "Image": "X562FCDQX73DS;L9EBWIDKFDKNLUWNJSNA:IU*DWJHIJDSJDKALijnkw8!WEJD#KLJSATEGD..."
+}
+```
+
 - Column oriented 
 	- [Hbase](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/hbase.md), Big-table, [Cassandra](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_32/cassandra.md)
 	- Data is stored in cells are grouped in columns of data rather than as rows of data. Columns are logically grouped into column families. One row may have one or multiple data records, which is indexed by a partition key.
