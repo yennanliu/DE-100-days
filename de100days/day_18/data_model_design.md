@@ -92,3 +92,6 @@ CREATE TABLE city (
 - http://www.databaseanswers.org/data_models/e_commerce/index.htm
 - https://dbdiagram.io/d
 - http://www.databaseanswers.org/data_models/index.htm
+- https://javascriptgorilla.wordpress.com/2016/08/23/spotify-database-schema/
+- https://www.guru99.com/database-interview-questions.html
+- https://www.softwaretestinghelp.com/data-modeling-interview-questions-answers/
