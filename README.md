@@ -52,7 +52,7 @@
 35. Day35 - Case II : Save/query temp data at Redis, and sync it to Mysql  
 
 #### Part 8 : System design
-36. Day36 - Design concept / Basic pattern
+36. [Day36 - Design concept / Basic pattern](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_36/design_concept_basic.md)
 37. Day37 - Evaluate system performance : response-time/latency-time, QPS..
 38. Day38 - Scaling system : horizontal scaling / vertical scaling ...
 39. Day39 - Case I : Design an ecommerce data backend 
