@@ -88,11 +88,11 @@
 60. Day 60 - Other scaling strategy  
 
 #### Part 13 : Distributed system 
-61. Day 61 - Framework : Leader/Follower, Leader-Leader, 
-62. Day 62 - Latency, Memory Access
-63. Day 63 - CAP theory : Consistency, Availability and Partition Tolerance
-64. Day 64 - Partial failure and concurrency
-65. Day 65 - Case I : Design a Web app with leader-follower DB backend
+61. [Day 61 - Basics I : Load balancing, Caching, data partition, indexes](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_61/distributed_system_basicI.md)
+62. Day 62 - Basics II : Proxies, Redundancy & Replication, Consistent Hashing
+63. Day 63 - Framework : Leader/Follower, Leader-Leader
+64. Day 64 - CAP theory : Consistency, Availability and Partition Tolerance
+65. Day 65 - Partial failure and concurrency
 
 #### Part 14 : Streaming data ( V.S. batch data)
 66. Day 66 - Streaming data properties : time window, recency, ordering.. 
