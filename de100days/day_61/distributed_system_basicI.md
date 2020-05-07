@@ -2,7 +2,7 @@
 
 ## Basic
 - intro
-<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_61/load_balancer.png" width="800" height="400"></p>
+<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_61/load_balancer.png"></p>
 
 ## Load balancing (LB)
 - Benefits
