@@ -5,7 +5,7 @@
 #### Part 1 : Basic DE tools 
 1. Day01 - Data engineering intro 
 2. Day02 - Progamming language basics : Python 
-3. [Day03 - Progamming language basics : Scala]((https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_03/scala.md))
+3. [Day03 - Progamming language basics : Scala](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_03/scala.md)
 4. Day04 - Script basics : Bash
 5. [Day05 - SQL basic, DDL, DQL, DML, DCL and TCL Commands](https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_05/sql_basic.md)
 
