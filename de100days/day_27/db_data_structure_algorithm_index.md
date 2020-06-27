@@ -21,13 +21,13 @@ HEAP -> B - Tree -> ...
 
 - Index architecture and indexing methods
 - Clustered
-<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_27/clustered_index.jpg" width="800" height="400"></p>
+	<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_27/clustered_index.jpg" width="400" height="400"></p>
  - Make index based on original data ordering, i.e. `original data : 1,2,3..100` -> `clustered index : page 1 : 1,2..10, page 2 : 11,12...20... page 10 : 91...100`
  - Each table only has 1 clustered index
  - pros : better query efficiency with this type of index
  - cros : hard to maintain (if new data coming, the index has to be rebalanced/updated)
 - Non-clustered
-<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_27/non-cluster_index.png" width="800" height="400"></p>
+	<p align="center"><img src ="https://github.com/yennanliu/DE-100-days/blob/master/de100days/day_27/non-cluster_index.png" width="400" height="400"></p>
  - Based on the "layer/location" of the `data structure (heap/tree..)` the data points located in. If `heap`, then the Non-clustered is the heap index ; if `cluster`, then the Non-clustered is cluster index
  - Each table can has multiple Non-clustered index
  - pros : easy to maintain
