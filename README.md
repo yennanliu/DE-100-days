@@ -1,5 +1,7 @@
 ## [DATA ENGINEER 100 DAYS](https://github.com/yennanliu/DE-100-days/tree/master/de100days)
 
+#### TODO : Re-design the project based on [datastacktv/data-engineer-roadmap](https://github.com/datastacktv/data-engineer-roadmap)
+
 ### CONTEXTS 
 
 #### Part 1 : Basic DE tools 
