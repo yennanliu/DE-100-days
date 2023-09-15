@@ -1,0 +1,41 @@
+# Credit : https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fposts%2Fbenjaminrogojan_dataengineering-activity-7108147654085287936-IKaz%3Futm_source%3Dshare%26utm_medium%3Dmember_ios%26fbclid%3DIwAR0l3Nzu0fh0_4q3LKP21FbSZUNO1cqIBXijsVRu556xODT7sO3kJTWxKQ8&h=AT26fwmcw1x1S215CQlOQ6V7io8k7aHmn8sx1KQkR4aU-WHsxtU4N_Baj5Ibgw-MjU2RiwP0gU6oM9G7tqQ954a-MDu2eUym-u9IECMhstqtkZN049A2x0SXoflFbLkYUEZBfmUC
+
+
+Data engineering projects are a great way to show off your skills on your resume.
+
+But thinking of a data engineering project idea is hard.
+
+So here are 7 great examples and other resources you can use to inspire your next data engineering project.
+
+1. Data Engineering Project for Beginners - Batch edition by Joseph Machado - A real data engineering project usually involves multiple components. This project includes AWS EMR, Airflow, Redshift and more!
+
+https://lnkd.in/g3ymupMy
+
+2. How To Start Your Next Data Engineering Project - As you get more advanced on your DE journey you're going to want to go from following other people's ideas to creating your own. This article will walk you through how you can set-up your DE project from start to finish.
+https://lnkd.in/gTgwPDhZ
+
+3. Building A Data Engineering Project - Extracting Data From An API
+Pulling data from Predictit's API to learn about what is going on in politics
+https://lnkd.in/gFibQbdp
+
+4. 🚖 Uber Data Analytics | End-To-End Data Engineering Project
+Project by Darshil Parmar
+
+Darshil has several great examples of data engineering projects you can put together. A recent one he has developed has gained over 300k views in less than a month. It uses BigQuery, Mage and Looker Studio.
+
+https://lnkd.in/g6nTcjpW
+
+5. Basic Data Engineering Project - End-To-End From Web Scraping to Tableau
+An example of scraping the web and building a basic dashboard
+https://lnkd.in/eJxBHa4h
+
+6. Data Engineering Project-2|Building Spotify ETL using Python and Apache Airflow By Sidharth Ramalingam
+This is Sidharth's second data project. It creates an Extract Transform Load pipeline using python and automating with airflow.
+https://lnkd.in/gpwVrzFY
+
+7. 6 Side Project Ideas for New and Experienced Data Engineers
+By Chengzhi Zhao Even more data engineering project ideas!
+https://lnkd.in/gsqDp8uw
+
+
+What are your favorite data engineering project examples?
